@@ -6,6 +6,7 @@
 body {
     width: 900px;
     background-image: url(imgs/background.gif);
+    margin: auto auto;
 }
 
 h2 {
