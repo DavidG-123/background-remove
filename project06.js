@@ -28,7 +28,7 @@ function startIt(each) {
 
             gallery.setAttribute("style", String("display: grid; " + "grid-template-columns: 50% 50%; " + "grid-template-rows:" + "fit-content ".repeat(Math.floor(length/2))));
             let frames = document.createElement("div");
-            frames.setAttribute("style", "width: 98%; height: fit-content; margin: auto auto; border: dashed black 1px;");
+            frames.setAttribute("style", "width: 98%; height: fit-content; margin: auto auto; border: dashed #ff00ff 1px;");
             let imgs = document.createElement("img");
             frames.appendChild(imgs);
             imgs.setAttribute("src", String(photoSeq[length-1]));
