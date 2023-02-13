@@ -39,12 +39,6 @@ function startIt(each) {
         length = 0;
 
         document.querySelector("body").appendChild(gallery);
-
-        sort.forEach(each => {
-            length += 1;
-            let heights = document.querySelector("#" + "images" + String(length));
-            console.log(heights.height);
-        });
     }
     orderbyType(each)
     fileSort(each)
